@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>First Website</title>
+        <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+    </head>
+    <body>
+        <div class="main">
+                <nav>
+                    <div class="container">
+                        <h1><a class="logo" href="index.html">Joe Hartman</a></h1>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <br style="clear: both;">
+                    </div>
+                </nav>
+
+                <div class="banner">
+                    <div class="full-container">
+                        <div class="banner-content">
+                            <h1><span>Hello, I'm Joe Hartman.</span><br>
+                                I am new to programming but I am getting the hang of it.</h1>
+                            <button class="button">More About Me
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio" id="portfolio">
+                    <div class="container">
+                        <h1>Recent Projects</h1>
+                        <table>
+                            <th colspan="2"></th>
+
+                        <div class="gallery">
+                            <tr>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/t9lXT8kh974" frameborder="0" allowfullscreen></iframe></td>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/hkEC_3wUnqQ" frameborder="0" allowfullscreen></iframe></td>
+                            </tr>
+                            <br style="clear: both">
+                            <tr>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/zfXz9ciq2nA" frameborder="0" allowfullscreen></iframe></td>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/xKpiCS--49s" frameborder="0" allowfullscreen></iframe></td>
+                            </tr>
+                            <br style="clear: both">
+                            <tr>
+                            <tr>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/dbWF6mZqqdg" frameborder="0" allowfullscreen></iframe></td>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/INopHtA4gcs" frameborder="0" allowfullscreen></iframe></td>
+                            </tr>
+
+                        </div>
+                        </table>
+
+                    </div>
+                </div>
+
+                <div class="contactDiv" id="contact">
+                    <div class="container">
+                        <h2>Get In Touch</h2>
+
+                        <form class="contactForm" action="https://formspree.io/jhartman0827@gmail.com" method="POST">
+                            <div class="contactContainer">
+                                <div class="form-group">
+                                    <p>
+                                        Name:
+                                    </p>
+                                    <input type="text" name="name" value="" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <p>
+                                        Email:
+                                    </p>
+                                    <input type="text" name="_replyto" value="" placeholder="Your Email">
+                                </div>
+                                <div class="form-group">
+                                    <p>
+                                        Message:
+                                    </p>
+                                    <textarea placeholder="Enter Your Message" row="20"></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <input id="submitMessage" type="submit" name="name" value="Send">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+        </div>
+
+
+    </body>
+</html>
